@@ -20,6 +20,7 @@
     'use strict';
 
     // keeping central set of classnames and selectors
+
     var WRAPPER =               'fullpage-wrapper';
     var WRAPPER_SEL =           '.' + WRAPPER;
 
@@ -154,9 +155,9 @@
             controlArrowColor: '#fff',
             verticalCentered: true,
             sectionsColor : [],
-            paddingTop: 0,
-            paddingBottom: 0,
-            fixedElements: null,
+            paddingTop:  $('.header').outerHeight(),
+            paddingBottom: $('.footer').outerHeight(),
+            fixedElements: '.header, .footer',
             responsive: 0, //backwards compabitility with responsiveWiddth
             responsiveWidth: 0,
             responsiveHeight: 0,
@@ -196,7 +197,7 @@
             if(options.autoScrolling && !options.scrollBar){
                 $htmlBody.css({
                     'overflow' : 'hidden',
-                    'height' : '100%'
+                    'height' : '100% '
                 });
 
                 FP.setRecordHistory(originals.recordHistory, 'internal');

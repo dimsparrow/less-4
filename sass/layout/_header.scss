@@ -1,10 +1,10 @@
 .header {
-	-webkit-flex-shrink: 0;
-	-ms-flex-negative: 0;
-	flex-shrink: 0;
-	background: $red;
-	position: relative;
-	z-index: 10;
+	/* -webkit-flex-shrink: 0;*/
+	/* -ms-flex-negative: 0;*/
+	/* flex-shrink: 0;*/
+	/* background: $red;*/
+	/* position: relative;*/
+	/* z-index: 10;*/
 	.container {
 		display: -webkit-box;
 		display: -webkit-flex;
@@ -26,4 +26,30 @@
 			height: 100%;
 		}
 	}
+}
+
+.header, .footer {
+	background: #fff;
+	color: #f2f2f2;
+	display: block;
+	height: auto;
+	padding: 20px 0 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 9;
+}
+
+.section.fp-section {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.header {
+	top: 0;
+}
+
+.footer {
+	bottom: 0;
 }
