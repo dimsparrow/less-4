@@ -1,3 +1,9 @@
+.content {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
 .sliders {
 	background: #81e4ed;
 	padding: 20px 0  14px;
