@@ -1,9 +1,31 @@
-.content {
-	-webkit-box-flex: 1;
-	-webkit-flex-grow: 1;
-	-ms-flex-positive: 1;
-	flex-grow: 1;
+.info-menu {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	.quantity {
+		font-size: $font-size+26;
+		font-weight: bold;
+	}
+	.description {
+		color: #8b8b8b;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .sliders {
 	background: #81e4ed;
 	padding: 20px 0  14px;

@@ -5,7 +5,9 @@ var Homepage = {
 	},
 	fullPage: function(){
 		$('.fullpages').fullpage({
-
+			paddingTop:  $('.header').outerHeight(),
+			paddingBottom: $('.footer').outerHeight(),
+			fixedElements: '.header, .info',
 		});
 	},
 	bxslider: function(){

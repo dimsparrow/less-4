@@ -1,7 +1,4 @@
 .footer {
-	-webkit-flex-shrink: 0;
-	-ms-flex-negative: 0;
-	flex-shrink: 0;
 	padding: 30px 0 40px;
 	border-top: 1px solid #d9d9d9;
 	.footer-menu {
@@ -60,7 +57,6 @@
 	.title {
 		padding-left: 0;
 	}
-	
 	.footer-bottom {
 		display: -webkit-box;
 		display: -webkit-flex;
@@ -75,41 +71,40 @@
 		}
 	}
 }
-
 .links {
 		max-width: 189px;
 	}
-	.links-holder {
-		margin: 0 0 0 -30px;
-		.link {
-			width: 50px;
-			height: 50px;
-			background: url('../img/sprite.png') no-repeat 0 -404px;
-			display: inline-block;
-			margin: 0 0 10px 20px;
-			a {
-				display: block;
-				height: 100%;
-			}
-			&:hover {
-				-webkit-transform: scale(1.1);
-				-ms-transform: scale(1.1);
-				transform: scale(1.1);
-			}
+.links-holder {
+	margin: 0 0 0 -30px;
+	.link {
+		width: 50px;
+		height: 50px;
+		background: url('../img/sprite.png') no-repeat 0 -404px;
+		display: inline-block;
+		margin: 0 0 10px 20px;
+		a {
+			display: block;
+			height: 100%;
 		}
-		.globe {
-			background-position: 0 -462px;
-		}
-		.pip {
-			background-position: 0 -520px;
-		}
-		.linkedin {
-			background-position: 0 -580px;
-		}
-		.skype {
-			background-position: 0 -638px;
-		}
-		.conect-link {
-			background-position: 0 -697px;
+		&:hover {
+			-webkit-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+			transform: scale(1.1);
 		}
 	}
+	.globe {
+		background-position: 0 -462px;
+	}
+	.pip {
+		background-position: 0 -520px;
+	}
+	.linkedin {
+		background-position: 0 -580px;
+	}
+	.skype {
+		background-position: 0 -638px;
+	}
+	.conect-link {
+		background-position: 0 -697px;
+	}
+}
