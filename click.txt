@@ -1,0 +1,28 @@
+$(document).on('click', function(e){
+    if(!$(e.target).hasClass("contact-phone") && !$(e.target).closest('.contact-phone').length){
+     $('.phone_header').removeClass('active');
+     $('.phone-tooltip').slideUp('fast');
+    }
+   });
+
+
+
+ phoneTooltip: function(){
+   var phone = $('.phone_header');
+   var tooltip = $('.phone-tooltip');
+   phone.on('click', function(){
+    if(!$(this).hasClass('active')){
+     $(this).addClass('active');
+     $(this).parent().find('.phone-tooltip').slideDown('fast');
+    } else {
+     $(this).removeClass('active');
+     $(this).parent().find('.phone-tooltip').slideUp('fast');
+    }
+   });
+   $(document).on('click', function(e){
+    if(!$(e.target).hasClass("contact-phone") && !$(e.target).closest('.contact-phone').length){
+     $('.phone_header').removeClass('active');
+     $('.phone-tooltip').slideUp('fast');
+    }
+   });
+  },

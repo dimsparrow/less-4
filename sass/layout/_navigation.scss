@@ -8,8 +8,8 @@
 		display: block;
 		position: relative;
 		padding: 30px 17px;
-		&:hover {
-			font-weight: bold;
+		&:hover {				
+			text-shadow: 1px 0;
 		}
 		&:after {
 			content: '';

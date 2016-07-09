@@ -1,20 +1,15 @@
 var Homepage = {
 	init: function(){
-		this.bxslider();
 		this.fullPage();
 	},
 	fullPage: function(){
 		$('.fullpages').fullpage({
 			paddingTop:  $('.header').outerHeight(),
-			paddingBottom: $('.footer').outerHeight(),
+			paddingBottom: $('.info').outerHeight(),
 			fixedElements: '.header, .info',
 		});
-	},
-	bxslider: function(){
-		$('.bxslider').bxSlider({
-
-		});
 	}
+
 };
 
 
