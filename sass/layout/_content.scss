@@ -21,33 +21,10 @@
 			font-size: $font-size -2;
 		}
 	}
-	.fp-slidesContainer{
-		width: 100% !important;
-		position: relative;
-	}
-	.menu-slider {
-		overflow: hidden;
-		padding: 0 40px;
-		height: 500px;
-		.slide {
-			&.active{
-				opacity: 1;
-			}
-			display: block;
-			position: absolute;
-			width: 100% !important;
-			height: 100%;
-			opacity: 0;
-		}	
-	}
+
 }
-img{
-	max-width: 100%;
-	height: auto;
-}
-.fp-slides-container{
-	transform: translate3d(0px, 0px, 0px) !important;
-}
+
+
 
 .info-menu {
 	display: -webkit-box;
@@ -65,9 +42,6 @@ img{
 		color: #8b8b8b;
 	}
 }
-
-
-
 
 
 
