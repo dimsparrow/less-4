@@ -14,33 +14,14 @@ a {
 	color: #a5a7ae;
 	opacity: 1;
 }
-p {
-	margin: 0 0 30px;
-	line-height: 1.6;
-}
-.title-slider {
-	font-family: 'Lato', $font-sans;
-	font-size: $font-size+36;
-	color: $white;
+h2 {
+	font-size: $font-size+22;
+	font-weight: bold;
 	margin: 0 0 10px;
 }
-.title {
-	font-size: $font-size+1;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding: 10px 0 10px 60px;
-	position: relative;
-	margin: 0 0 16px;
-}
-.title:before {
-	content: "";
-	position: absolute;
-	top: 50%;
-	left: 0;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	background: url('../img/sprite.png') no-repeat 0 -15px;
+p {
+	margin: 0 0 30px;
+	font-size: $font-size+2;
 }
 .clearfix {
 	@include clearfix;
