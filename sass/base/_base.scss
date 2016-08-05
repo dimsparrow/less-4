@@ -19,6 +19,11 @@ h2 {
 	font-weight: bold;
 	margin: 0 0 10px;
 }
+h3 {
+	font-size: $font-size+8;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
 p {
 	margin: 0 0 30px;
 	font-size: $font-size+2;
@@ -27,8 +32,10 @@ p {
 	@include clearfix;
 }
 .container {
-	@include container (1366px, 0 40px);
+	@include container (1366px, 0 80px);
 	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .bg {
 	background: $white;
